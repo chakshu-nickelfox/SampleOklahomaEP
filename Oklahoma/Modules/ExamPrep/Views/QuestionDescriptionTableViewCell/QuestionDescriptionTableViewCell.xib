@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Italic.ttf">
+            <string>Lato-Italic</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="232" id="OwP-Ts-kaM" customClass="QuestionDescriptionTableViewCell" customModule="LifeSafetyEducator4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="232"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OwP-Ts-kaM" id="qV0-kz-gti">
+                <rect key="frame" x="0.0" y="0.0" width="456" height="232"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3g-iG-YlA" userLabel="Question View">
+                        <rect key="frame" x="0.0" y="0.0" width="456" height="181"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question 40 of 580" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jk5-qK-NgU">
+                                <rect key="frame" x="25" y="12" width="406" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="s3Y-fr-PlJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" name="F7C004"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zII-jY-bR4">
+                                <rect key="frame" x="25" y="58.000000000000007" width="406" height="111.66666666666669"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ch. 1 - p.32-q.39" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJ6-MA-18d" userLabel="Chapter Detail Label">
+                                <rect key="frame" x="221" y="18.333333333333336" width="220" height="17.333333333333336"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17.5" id="JJn-i7-byU"/>
+                                    <constraint firstAttribute="width" constant="220" id="aaD-ll-ZTB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Italic" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="0.63914442059999999" green="0.63925665620000005" blue="0.63913732769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Roboto-Italic" family="Roboto" pointSize="18"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="231F20"/>
+                        <constraints>
+                            <constraint firstItem="EJ6-MA-18d" firstAttribute="centerY" secondItem="jk5-qK-NgU" secondAttribute="centerY" id="30D-Qg-NAc"/>
+                            <constraint firstAttribute="trailing" secondItem="jk5-qK-NgU" secondAttribute="trailing" constant="25" id="Coa-gw-L93"/>
+                            <constraint firstAttribute="trailing" secondItem="EJ6-MA-18d" secondAttribute="trailing" constant="15" id="L8S-s6-xZU"/>
+                            <constraint firstItem="jk5-qK-NgU" firstAttribute="top" secondItem="v3g-iG-YlA" secondAttribute="top" constant="12" id="YW8-LD-gPu"/>
+                            <constraint firstItem="zII-jY-bR4" firstAttribute="leading" secondItem="v3g-iG-YlA" secondAttribute="leading" constant="25" id="Z9U-mC-UPN"/>
+                            <constraint firstItem="jk5-qK-NgU" firstAttribute="leading" secondItem="v3g-iG-YlA" secondAttribute="leading" constant="25" id="e2H-g4-7aq"/>
+                            <constraint firstItem="zII-jY-bR4" firstAttribute="top" secondItem="jk5-qK-NgU" secondAttribute="bottom" constant="16" id="f63-cU-9Oh"/>
+                            <constraint firstAttribute="bottom" secondItem="zII-jY-bR4" secondAttribute="bottom" constant="11.5" id="ihE-dJ-vF5"/>
+                            <constraint firstAttribute="trailing" secondItem="zII-jY-bR4" secondAttribute="trailing" constant="25" id="vGE-aO-aRg"/>
+                        </constraints>
+                    </view>
+                    <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1F-MW-Xid" userLabel="Add To Study Deck">
+                        <rect key="frame" x="143" y="195" width="170" height="30"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="gAd-W6-Btz"/>
+                            <constraint firstAttribute="width" constant="170" id="ndQ-sz-dzH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="10"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                        <state key="normal" title="Add to Study Deck" image="UncheckedBoxIcon">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <state key="selected" title="Add to Study Deck" image="checkedWhiteBoxIcon"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="addToStudyDeckAction:" destination="OwP-Ts-kaM" eventType="touchUpInside" id="bBj-14-9aM"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attempt: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMZ-rW-7JC">
+                        <rect key="frame" x="20" y="195" width="436" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="231F20"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="vMZ-rW-7JC" secondAttribute="bottom" constant="5" id="6wu-kb-udv"/>
+                    <constraint firstItem="u1F-MW-Xid" firstAttribute="centerX" secondItem="qV0-kz-gti" secondAttribute="centerX" id="7Bs-da-fuZ"/>
+                    <constraint firstItem="v3g-iG-YlA" firstAttribute="leading" secondItem="qV0-kz-gti" secondAttribute="leading" id="B8j-E4-TXT"/>
+                    <constraint firstAttribute="trailing" secondItem="v3g-iG-YlA" secondAttribute="trailing" id="Stz-s1-tB7"/>
+                    <constraint firstAttribute="bottom" secondItem="u1F-MW-Xid" secondAttribute="bottom" constant="7" id="Y63-zM-m6y"/>
+                    <constraint firstItem="vMZ-rW-7JC" firstAttribute="trailing" secondItem="v3g-iG-YlA" secondAttribute="trailing" id="akr-ab-FLz"/>
+                    <constraint firstItem="v3g-iG-YlA" firstAttribute="top" secondItem="qV0-kz-gti" secondAttribute="top" id="hTY-ow-H55"/>
+                    <constraint firstItem="vMZ-rW-7JC" firstAttribute="leading" secondItem="qV0-kz-gti" secondAttribute="leadingMargin" id="j9J-O7-T3j"/>
+                    <constraint firstItem="vMZ-rW-7JC" firstAttribute="top" secondItem="v3g-iG-YlA" secondAttribute="bottom" constant="14" id="jjj-wo-sVD"/>
+                    <constraint firstItem="u1F-MW-Xid" firstAttribute="top" secondItem="v3g-iG-YlA" secondAttribute="bottom" constant="14" id="sxk-Jh-PQ2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="QQV-WW-ITM"/>
+            <connections>
+                <outlet property="addToStudyDeckButton" destination="u1F-MW-Xid" id="8Sa-ct-Wgi"/>
+                <outlet property="questionAttemptsLabel" destination="vMZ-rW-7JC" id="q9x-eg-tGc"/>
+                <outlet property="questionNumberLabel" destination="jk5-qK-NgU" id="YHe-Cs-3XU"/>
+                <outlet property="questionReferenceLabel" destination="EJ6-MA-18d" id="mDo-sw-yVy"/>
+                <outlet property="questionTextLabel" destination="zII-jY-bR4" id="g4T-rB-TPr"/>
+            </connections>
+            <point key="canvasLocation" x="369.56521739130437" y="2.6785714285714284"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="UncheckedBoxIcon" width="24" height="24"/>
+        <image name="checkedWhiteBoxIcon" width="24" height="24"/>
+        <namedColor name="231F20">
+            <color red="0.13699999451637268" green="0.12200000137090683" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F7C004">
+            <color red="0.96899998188018799" green="0.75300002098083496" blue="0.016000000759959221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

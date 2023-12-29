@@ -1,0 +1,67 @@
+[
+    {
+        "chapterId": 1,
+        "chapterName": "FLSE I: Getting Started",
+        "purchaseState": 2
+    },
+    {
+        "chapterId": 2,
+        "chapterName": "FLSE I: Community Risk Reduction",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 3,
+        "chapterName": "FLSE I: Administration",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 4,
+        "chapterName": "FLSE I: Delivering Educational Activities",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 5,
+        "chapterName": "FLSE I: Education and Implementation",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 6,
+        "chapterName": "FLSE II: Planning and Development",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 7,
+        "chapterName": "FLSE II: Administration",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 8,
+        "chapterName": "FLSE II: Learning Objectives, Lesson Planning, and Materials",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 9,
+        "chapterName": "FLSE II: Program Evaluation",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 10,
+        "chapterName": "FLSE Program Manager: Administration",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 11,
+        "chapterName": "FLSE Program Manager: Planning and Development",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 12,
+        "chapterName": "FLSE Program Manager: Marketing and Messaging",
+        "purchaseState": 1
+    },
+    {
+        "chapterId": 13,
+        "chapterName": "FLSE Program Management: Evaluation",
+        "purchaseState": 1
+    }
+]

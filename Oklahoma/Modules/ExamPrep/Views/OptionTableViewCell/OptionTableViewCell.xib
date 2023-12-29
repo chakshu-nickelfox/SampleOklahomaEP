@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="86" id="JLe-vD-b9Y" customClass="OptionTableViewCell" customModule="LifeSafetyEducator4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JLe-vD-b9Y" id="exM-vx-yo0">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5hI-Pt-Tzx">
+                        <rect key="frame" x="20" y="10" width="377" height="66"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wBl-7F-v4V">
+                                <rect key="frame" x="0.0" y="6" width="377" height="54"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMc-55-ZYl">
+                                        <rect key="frame" x="0.0" y="0.0" width="6" height="54"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="6" id="8iK-Ph-kKp"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gF-Yv-C21">
+                                        <rect key="frame" x="16" y="2.6666666666666679" width="311" height="49"/>
+                                        <string key="text">minimum temperature at which a liquid gives off enough vapors to form an ignitable mixture with air near the surface of the liquid.</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                                        </variation>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZuT-xn-ogc">
+                                        <rect key="frame" x="337" y="15" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="Uh7-Ox-f6z"/>
+                                            <constraint firstAttribute="height" constant="24" id="gqN-Gn-aeB"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="elI-uL-87b">
+                                        <rect key="frame" x="371" y="0.0" width="6" height="54"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="6" id="B1W-Fu-aMR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wBl-7F-v4V" firstAttribute="leading" secondItem="5hI-Pt-Tzx" secondAttribute="leading" id="6nz-hc-BTh"/>
+                            <constraint firstItem="wBl-7F-v4V" firstAttribute="top" secondItem="5hI-Pt-Tzx" secondAttribute="top" constant="6" id="Qfy-4G-qwr"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="TLI-0X-sd2"/>
+                            <constraint firstAttribute="bottom" secondItem="wBl-7F-v4V" secondAttribute="bottom" constant="6" id="bsV-Qq-kT6"/>
+                            <constraint firstAttribute="trailing" secondItem="wBl-7F-v4V" secondAttribute="trailing" id="xE9-go-Pph"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="231F20"/>
+                <constraints>
+                    <constraint firstItem="5hI-Pt-Tzx" firstAttribute="leading" secondItem="exM-vx-yo0" secondAttribute="leading" constant="20" id="VBZ-jW-6KL"/>
+                    <constraint firstAttribute="bottom" secondItem="5hI-Pt-Tzx" secondAttribute="bottom" constant="10" id="cwU-Kr-Qfn"/>
+                    <constraint firstItem="5hI-Pt-Tzx" firstAttribute="top" secondItem="exM-vx-yo0" secondAttribute="top" constant="10" id="jVE-A8-9tI"/>
+                    <constraint firstAttribute="trailing" secondItem="5hI-Pt-Tzx" secondAttribute="trailing" constant="20" id="z3e-Tb-d5n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="fE8-tQ-8Tw"/>
+            <color key="backgroundColor" name="231F20"/>
+            <connections>
+                <outlet property="optionImage" destination="ZuT-xn-ogc" id="P3r-Xa-ukh"/>
+                <outlet property="optionLabel" destination="1gF-Yv-C21" id="cja-kX-7KD"/>
+                <outlet property="optionView" destination="5hI-Pt-Tzx" id="CgI-Y9-ZY1"/>
+            </connections>
+            <point key="canvasLocation" x="207.97101449275365" y="125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="231F20">
+            <color red="0.13699999451637268" green="0.12200000137090683" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

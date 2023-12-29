@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DownloadTableViewCell" rowHeight="51" id="wt4-jC-sRa" customClass="DownloadTableViewCell" customModule="Essentials_7" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="51"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wt4-jC-sRa" id="tX0-LV-Rhc">
+                <rect key="frame" x="0.0" y="0.0" width="438" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cd-24-FLB">
+                        <rect key="frame" x="15" y="0.0" width="408" height="51"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HC-lf-1g7">
+                                <rect key="frame" x="5" y="15" width="146.5" height="26"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Selected" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Omy-ey-uTc">
+                                <rect key="frame" x="156.5" y="14.5" width="95.5" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBZ-yC-O24">
+                                <rect key="frame" x="379" y="13" width="24" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="o2T-N1-JQ8"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                <state key="normal" image="downloadAll">
+                                    <color key="titleColor" name="F7C004"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="downloadAll:" destination="wt4-jC-sRa" eventType="touchUpInside" id="cyM-SL-4K0"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCO-Vp-RdV">
+                                <rect key="frame" x="12" y="49" width="384" height="2"/>
+                                <color key="backgroundColor" name="636466"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="aY4-Ui-vFE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PCO-Vp-RdV" secondAttribute="bottom" id="0Dm-gr-fL8"/>
+                            <constraint firstItem="Omy-ey-uTc" firstAttribute="leading" secondItem="6HC-lf-1g7" secondAttribute="trailing" constant="5" id="2zK-cm-hol"/>
+                            <constraint firstItem="6HC-lf-1g7" firstAttribute="top" secondItem="2cd-24-FLB" secondAttribute="top" constant="15" id="9eY-s0-0AM"/>
+                            <constraint firstAttribute="bottom" secondItem="6HC-lf-1g7" secondAttribute="bottom" constant="10" id="BlH-ER-2oj"/>
+                            <constraint firstItem="PCO-Vp-RdV" firstAttribute="leading" secondItem="2cd-24-FLB" secondAttribute="leading" constant="12" id="J5A-Uw-zM3"/>
+                            <constraint firstItem="Omy-ey-uTc" firstAttribute="centerY" secondItem="2cd-24-FLB" secondAttribute="centerY" id="PKd-WO-mZP"/>
+                            <constraint firstItem="RBZ-yC-O24" firstAttribute="centerY" secondItem="6HC-lf-1g7" secondAttribute="centerY" id="Wrb-4Q-sIc"/>
+                            <constraint firstItem="Omy-ey-uTc" firstAttribute="centerX" secondItem="2cd-24-FLB" secondAttribute="centerX" id="XO9-yM-JrS"/>
+                            <constraint firstAttribute="trailing" secondItem="RBZ-yC-O24" secondAttribute="trailing" constant="5" id="coY-8n-ZBD"/>
+                            <constraint firstAttribute="trailing" secondItem="PCO-Vp-RdV" secondAttribute="trailing" constant="12" id="mEl-2G-Nmg"/>
+                            <constraint firstItem="6HC-lf-1g7" firstAttribute="leading" secondItem="2cd-24-FLB" secondAttribute="leading" constant="5" id="qRh-Td-wCO"/>
+                            <constraint firstItem="RBZ-yC-O24" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Omy-ey-uTc" secondAttribute="trailing" constant="5" id="ujO-JR-m97"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="231F20"/>
+                <constraints>
+                    <constraint firstItem="2cd-24-FLB" firstAttribute="leading" secondItem="tX0-LV-Rhc" secondAttribute="leading" constant="15" id="Efa-Nq-Kal"/>
+                    <constraint firstAttribute="trailing" secondItem="2cd-24-FLB" secondAttribute="trailing" constant="15" id="GvX-xx-4jP"/>
+                    <constraint firstAttribute="bottom" secondItem="2cd-24-FLB" secondAttribute="bottom" id="oRC-5q-SZU"/>
+                    <constraint firstItem="2cd-24-FLB" firstAttribute="top" secondItem="tX0-LV-Rhc" secondAttribute="top" id="qAg-aL-qtW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="231F20"/>
+            <connections>
+                <outlet property="actionButton" destination="RBZ-yC-O24" id="wo6-Qx-Teh"/>
+                <outlet property="nameLabel" destination="6HC-lf-1g7" id="Eio-Nr-HDz"/>
+                <outlet property="selectionCountLabel" destination="Omy-ey-uTc" id="ccb-7F-uU0"/>
+            </connections>
+            <point key="canvasLocation" x="-504.34782608695656" y="-65.290178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="downloadAll" width="24" height="24"/>
+        <namedColor name="231F20">
+            <color red="0.13699999451637268" green="0.12200000137090683" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="636466">
+            <color red="0.3880000114440918" green="0.3919999897480011" blue="0.40000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F7C004">
+            <color red="0.96899998188018799" green="0.75300002098083496" blue="0.016000000759959221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

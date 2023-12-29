@@ -1,0 +1,72 @@
+{
+  "name": "VimeoNetworking",
+  "version": "5.0.0",
+  "summary": "A library for interacting with the Vimeo API.",
+  "description": "An iOS/tvOS library for interacting with the Vimeo API.",
+  "homepage": "https://github.com/vimeo/VimeoNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gavin King": "gavin@vimeo.com",
+    "Nicole Lehrer": "nicole@vimeo.com",
+    "Mike Westendorf": "mikew@vimeo.com",
+    "Jason Hawkins": "jasonh@vimeo.com",
+    "Jennifer Lim": "jennifer@vimeo.com",
+    "Van Nguyen": "van@vimeo.com",
+    "Freddy Kellison-Linn": "freddyk@vimeo.com>"
+  },
+  "social_media_url": "http://twitter.com/vimeo",
+  "platforms": {
+    "ios": "10.3",
+    "tvos": "10.0",
+    "osx": "10.11"
+  },
+  "source": {
+    "git": "https://github.com/vimeo/VimeoNetworking.git",
+    "tag": "5.0.0"
+  },
+  "source_files": "Sources/Shared/**/*.{h,m,swift}",
+  "ios": {
+    "source_files": [
+      "Sources/iOS/**/*.{h,m,swift}",
+      "Sources/iOS+tvOS/**/*.{h,m,swift}"
+    ]
+  },
+  "tvos": {
+    "source_files": [
+      "Sources/tvOS/**/*.{h,m,swift}",
+      "Sources/iOS+tvOS/**/*.{h,m,swift}"
+    ]
+  },
+  "osx": {
+    "source_files": "Sources/macOS/**/*.{h,m,swift}"
+  },
+  "swift_versions": "5.1",
+  "resources": "Sources/Resources/**/*.*",
+  "frameworks": "Foundation",
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/Shared/**/*.{h,m,swift}",
+      "ios": {
+        "source_files": "Tests/iOS/**/*.{h,m,swift}"
+      },
+      "tvos": {
+        "source_files": "Tests/tvOS/**/*.{h,m,swift}"
+      },
+      "osx": {
+        "source_files": "Tests/macOS/**/*.{h,m,swift}"
+      },
+      "resources": "Tests/Fixtures/**/*.*",
+      "dependencies": {
+        "OHHTTPStubs/Swift": [
+          "8.0.0"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.1"
+}

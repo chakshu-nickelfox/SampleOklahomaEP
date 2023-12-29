@@ -1,0 +1,121 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AnyErrorKit (0.1.4)
+  - FLLogs (0.1.2):
+    - XCGLogger (~> 7.0.0)
+  - FLUtilities (0.1.0)
+  - FoxAPIKit (0.2.0):
+    - Alamofire (~> 4.7)
+    - AnyErrorKit (~> 0.1.4)
+    - JSONParsing (~> 0.2.0)
+    - SwiftyJSON (~> 4.0)
+  - JSONParsing (0.2.1):
+    - AnyErrorKit (~> 0.1.1)
+    - SwiftyJSON (~> 4.0)
+  - Kingfisher (7.8.1)
+  - MBProgressHUD (1.2.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ReactiveCocoa (12.0.0):
+    - ReactiveSwift (~> 7.0)
+  - ReactiveSwift (7.1.1)
+  - Realm (10.45.1):
+    - Realm/Headers (= 10.45.1)
+  - Realm/Headers (10.45.1)
+  - RealmSwift (10.45.1):
+    - Realm (= 10.45.1)
+  - SwiftLint (0.52.4)
+  - SwiftyJSON (4.3.0)
+  - VersaPlayer (3.0.2)
+  - VimeoNetworking (5.0.0)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - AnyErrorKit (from `https://github.com/Nickelfox/AnyErrorKit.git`)
+  - FLLogs (from `https://github.com/Nickelfox/FLLogs.git`, branch `master`)
+  - FLUtilities (from `https://github.com/Nickelfox/FLUtilities.git`, branch `master`)
+  - FoxAPIKit (from `https://github.com/Nickelfox/FoxAPIKit.git`, branch `master`)
+  - Kingfisher
+  - MBProgressHUD
+  - ReactiveCocoa
+  - ReactiveSwift
+  - RealmSwift
+  - SwiftLint
+  - VersaPlayer
+  - VimeoNetworking (from `https://github.com/vimeo/VimeoNetworking`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JSONParsing
+    - Kingfisher
+    - MBProgressHUD
+    - ObjcExceptionBridging
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Realm
+    - RealmSwift
+    - SwiftLint
+    - SwiftyJSON
+    - VersaPlayer
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  AnyErrorKit:
+    :git: https://github.com/Nickelfox/AnyErrorKit.git
+  FLLogs:
+    :branch: master
+    :git: https://github.com/Nickelfox/FLLogs.git
+  FLUtilities:
+    :branch: master
+    :git: https://github.com/Nickelfox/FLUtilities.git
+  FoxAPIKit:
+    :branch: master
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+  VimeoNetworking:
+    :git: https://github.com/vimeo/VimeoNetworking
+
+CHECKOUT OPTIONS:
+  AnyErrorKit:
+    :commit: 8651c99e640860cf09b724222ac7c62c4c102afb
+    :git: https://github.com/Nickelfox/AnyErrorKit.git
+  FLLogs:
+    :commit: 6b6fccd7ad2e31fd4c9c970498f81a5bcfd3d634
+    :git: https://github.com/Nickelfox/FLLogs.git
+  FLUtilities:
+    :commit: a16a0cba058a6f4e2fa62cfdcfd082394f67bd8d
+    :git: https://github.com/Nickelfox/FLUtilities.git
+  FoxAPIKit:
+    :commit: 74f3c5cb6e517c8f1bbe6908529783fefe9291d8
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+  VimeoNetworking:
+    :commit: 53f97f497dc9a16f1836f0967b6fca609dd73003
+    :git: https://github.com/vimeo/VimeoNetworking
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AnyErrorKit: ea76a71ded6c544d4d2ddbfe1e8befc67d39a407
+  FLLogs: c9809fdf95d61fe45025202340b0c4a7c922f85d
+  FLUtilities: b61fc8f05e8b952f803b77b26ca11936502c923d
+  FoxAPIKit: 49a6aa35a6326dccdffab5df2f213c6c107cbd7e
+  JSONParsing: 042f0e156c69002af7092084f3b9822867270b3d
+  Kingfisher: 63f677311d36a3473f6b978584f8a3845d023dc5
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ReactiveCocoa: 5d10386f0ce09f922006efbf784881c5fade27c5
+  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
+  Realm: e0bee0f167c0165312d80cb0def019fdb6a26be8
+  RealmSwift: 2a92c510fee3dace3e0ad809c2f10c6a6a4b65d5
+  SwiftLint: 1cc5cd61ba9bacb2194e340aeb47a2a37fda00b3
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  VersaPlayer: 0e9a0ea7da786729ffb377dbd17b34641a8265e4
+  VimeoNetworking: 9c68451b502b1e2f7cdf565f14b258f41abb4233
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+
+PODFILE CHECKSUM: 4dc404105d35e0347be47f23ded2fae4b796a130
+
+COCOAPODS: 1.14.3

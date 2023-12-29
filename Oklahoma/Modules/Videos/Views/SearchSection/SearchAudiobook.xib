@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SearchAudiobook" id="yuA-ZS-x87" customClass="SearchAudiobook" customModule="IFSTA_Companion_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-ds-QKk">
+                    <rect key="frame" x="20" y="0.0" width="407" height="52"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQj-zx-3dR">
+                            <rect key="frame" x="0.0" y="0.0" width="120.5" height="52"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="AudioBooks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqu-Dn-lVP">
+                                    <rect key="frame" x="0.0" y="0.0" width="120.5" height="52"/>
+                                    <color key="backgroundColor" name="231F20"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="22"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="hqu-Dn-lVP" secondAttribute="trailing" id="6Ya-EH-3WL"/>
+                                <constraint firstItem="hqu-Dn-lVP" firstAttribute="leading" secondItem="uQj-zx-3dR" secondAttribute="leading" id="QDP-yn-YQ0"/>
+                                <constraint firstItem="hqu-Dn-lVP" firstAttribute="top" secondItem="uQj-zx-3dR" secondAttribute="top" id="SkD-y5-skf"/>
+                                <constraint firstAttribute="bottom" secondItem="hqu-Dn-lVP" secondAttribute="bottom" id="VV3-fo-EHR"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qsu-80-oCf">
+                            <rect key="frame" x="140.5" y="0.0" width="266.5" height="52"/>
+                            <subviews>
+                                <searchBar contentMode="redraw" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqj-CV-vwn">
+                                    <rect key="frame" x="25" y="0.0" width="241.5" height="52"/>
+                                    <color key="backgroundColor" name="231F20"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="barTintColor" name="231F20"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <scopeButtonTitles>
+                                        <string>Title</string>
+                                    </scopeButtonTitles>
+                                </searchBar>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHg-fy-Ch2">
+                                    <rect key="frame" x="35" y="45" width="221.5" height="2"/>
+                                    <color key="backgroundColor" name="636466"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="hu6-9w-OA3"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" name="636466"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="fO8-oV-7bd">
+                                    <rect key="frame" x="0.0" y="17" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="THW-LZ-9Yg"/>
+                                        <constraint firstAttribute="width" constant="20" id="peH-OW-egf"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" name="231F20"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="QHg-fy-Ch2" secondAttribute="bottom" constant="5" id="KDx-CE-9U5"/>
+                                <constraint firstItem="QHg-fy-Ch2" firstAttribute="leading" secondItem="oqj-CV-vwn" secondAttribute="leading" constant="10" id="VOn-Sl-Smu"/>
+                                <constraint firstAttribute="trailing" secondItem="oqj-CV-vwn" secondAttribute="trailing" id="VQi-ja-cag"/>
+                                <constraint firstAttribute="bottom" secondItem="oqj-CV-vwn" secondAttribute="bottom" symbolic="YES" id="WdM-4x-Two"/>
+                                <constraint firstItem="fO8-oV-7bd" firstAttribute="centerY" secondItem="oqj-CV-vwn" secondAttribute="centerY" constant="1" id="eK6-no-34P"/>
+                                <constraint firstAttribute="trailing" secondItem="QHg-fy-Ch2" secondAttribute="trailing" constant="10" id="f93-do-R6H"/>
+                                <constraint firstItem="fO8-oV-7bd" firstAttribute="leading" secondItem="Qsu-80-oCf" secondAttribute="leading" id="l1H-L1-0Fh"/>
+                                <constraint firstItem="oqj-CV-vwn" firstAttribute="top" secondItem="Qsu-80-oCf" secondAttribute="top" id="rfA-yH-iCb"/>
+                                <constraint firstItem="oqj-CV-vwn" firstAttribute="leading" secondItem="fO8-oV-7bd" secondAttribute="trailing" constant="5" id="tfa-K4-J0L"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="q9L-h8-V2e"/>
+            <color key="backgroundColor" name="231F20"/>
+            <constraints>
+                <constraint firstItem="q9L-h8-V2e" firstAttribute="trailing" secondItem="Bgn-ds-QKk" secondAttribute="trailing" constant="20" id="EQb-2L-moA"/>
+                <constraint firstItem="Bgn-ds-QKk" firstAttribute="leading" secondItem="q9L-h8-V2e" secondAttribute="leading" constant="20" id="H0R-LP-D5F"/>
+                <constraint firstItem="Bgn-ds-QKk" firstAttribute="top" secondItem="yuA-ZS-x87" secondAttribute="top" id="pku-AC-mLI"/>
+                <constraint firstItem="q9L-h8-V2e" firstAttribute="bottom" secondItem="Bgn-ds-QKk" secondAttribute="bottom" id="xbV-mY-KNC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblTitle" destination="hqu-Dn-lVP" id="HUq-pt-nLI"/>
+                <outlet property="searchAudiobook" destination="oqj-CV-vwn" id="yG1-Ps-AGQ"/>
+            </connections>
+            <point key="canvasLocation" x="-418.11594202898556" y="192.85714285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search" width="21" height="21"/>
+        <namedColor name="231F20">
+            <color red="0.13699999451637268" green="0.12200000137090683" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="636466">
+            <color red="0.3880000114440918" green="0.3919999897480011" blue="0.40000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

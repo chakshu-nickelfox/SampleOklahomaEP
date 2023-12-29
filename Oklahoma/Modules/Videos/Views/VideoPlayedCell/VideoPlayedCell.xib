@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="VideoPlayedCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoPlayedCell" rowHeight="150" id="IlG-9J-lmv" customClass="VideoPlayedCell" customModule="Essentials_7" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="407" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IlG-9J-lmv" id="YYO-83-IbN">
+                <rect key="frame" x="0.0" y="0.0" width="407" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avb-4W-f4h">
+                        <rect key="frame" x="0.0" y="0.0" width="407" height="250"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ObT-kX-ANs">
+                                <rect key="frame" x="0.0" y="100" width="407" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="XzC-Hh-cBN"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ubH-qm-Zj7">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundViewColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continue Watching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cU6-fk-SVr">
+                                <rect key="frame" x="20" y="15" width="145" height="69"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cU6-fk-SVr" firstAttribute="top" secondItem="avb-4W-f4h" secondAttribute="top" constant="15" id="BYf-Uk-MPf"/>
+                            <constraint firstItem="ObT-kX-ANs" firstAttribute="leading" secondItem="avb-4W-f4h" secondAttribute="leading" id="DDk-KD-5f6"/>
+                            <constraint firstAttribute="trailing" secondItem="ObT-kX-ANs" secondAttribute="trailing" id="EJF-SP-MaE"/>
+                            <constraint firstAttribute="bottom" secondItem="ObT-kX-ANs" secondAttribute="bottom" id="iUe-Ex-owj"/>
+                            <constraint firstItem="ObT-kX-ANs" firstAttribute="top" secondItem="cU6-fk-SVr" secondAttribute="bottom" constant="16" id="ltN-qc-ytv"/>
+                            <constraint firstItem="cU6-fk-SVr" firstAttribute="leading" secondItem="avb-4W-f4h" secondAttribute="leading" constant="20" id="q3g-VL-yUa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="avb-4W-f4h" firstAttribute="leading" secondItem="YYO-83-IbN" secondAttribute="leading" id="Ah2-9G-y9K"/>
+                    <constraint firstAttribute="trailing" secondItem="avb-4W-f4h" secondAttribute="trailing" id="Dl5-F6-tL0"/>
+                    <constraint firstAttribute="bottom" secondItem="avb-4W-f4h" secondAttribute="bottom" id="E3M-Bh-dmE"/>
+                    <constraint firstItem="avb-4W-f4h" firstAttribute="top" secondItem="YYO-83-IbN" secondAttribute="top" id="yVm-x4-KsZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Iax-Ns-k6g"/>
+            <color key="backgroundColor" name="231F20"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgroundViewColor">
+                    <color key="value" name="231F20"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="collectionView" destination="ObT-kX-ANs" id="850-WD-Ivx"/>
+                <outlet property="continueLabel" destination="cU6-fk-SVr" id="FAo-Bb-eqv"/>
+            </connections>
+            <point key="canvasLocation" x="-305.07246376811594" y="-39.508928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="231F20">
+            <color red="0.13699999451637268" green="0.12200000137090683" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,18 @@
+${PODS_ROOT}/Target Support Files/Pods-Oklahoma/Pods-Oklahoma-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AnyErrorKit/AnyErrorKit.framework
+${BUILT_PRODUCTS_DIR}/FLLogs/FLLogs.framework
+${BUILT_PRODUCTS_DIR}/FLUtilities/FLUtilities.framework
+${BUILT_PRODUCTS_DIR}/FoxAPIKit/FoxAPIKit.framework
+${BUILT_PRODUCTS_DIR}/JSONParsing/JSONParsing.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework
+${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework
+${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/VersaPlayer/VersaPlayer.framework
+${BUILT_PRODUCTS_DIR}/VimeoNetworking/VimeoNetworking.framework
+${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework

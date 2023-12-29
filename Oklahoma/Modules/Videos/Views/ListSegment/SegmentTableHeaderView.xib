@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SegmentTableHeaderView" customModule="BaseOklahoma" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rrn-rn-wVT">
+                    <rect key="frame" x="0.0" y="0.0" width="447" height="52"/>
+                    <subviews>
+                        <stackView opaque="NO" tag="-1" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="LCv-5L-nZ7">
+                            <rect key="frame" x="12" y="0.0" width="423" height="52"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHF-Kl-4yG">
+                                    <rect key="frame" x="0.0" y="0.0" width="121" height="52"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" name="F7C004"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="didSelectSegment:" destination="iN0-l3-epB" eventType="touchUpInside" id="yhj-Mr-gYE"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfY-rs-Sdw">
+                                    <rect key="frame" x="151" y="0.0" width="121" height="52"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" name="F7C004"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="didSelectSegment:" destination="iN0-l3-epB" eventType="touchUpInside" id="Omf-4v-89Z"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9q5-YA-XEI">
+                                    <rect key="frame" x="302" y="0.0" width="121" height="52"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" name="F7C004"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="didSelectSegment:" destination="iN0-l3-epB" eventType="touchUpInside" id="6y6-av-pgP"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" name="231F20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="52m-xJ-nes"/>
+                            </constraints>
+                        </stackView>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2i-Zg-ZgT">
+                            <rect key="frame" x="12" y="43" width="423" height="2"/>
+                            <viewLayoutGuide key="safeArea" id="xUq-6M-bv4"/>
+                            <color key="backgroundColor" white="1" alpha="0.19684211779999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="h8r-wX-VGG"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qxI-EI-ZYd">
+                            <rect key="frame" x="12" y="43" width="141" height="2"/>
+                            <viewLayoutGuide key="safeArea" id="Yae-Gm-DXz"/>
+                            <color key="backgroundColor" name="F7C004"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="E5l-pm-Y78"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECA-7Z-hI7">
+                            <rect key="frame" x="435" y="0.0" width="89.5" height="52"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="231F20"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ECA-7Z-hI7" secondAttribute="bottom" id="16b-Wd-1wf"/>
+                        <constraint firstItem="qxI-EI-ZYd" firstAttribute="width" secondItem="LCv-5L-nZ7" secondAttribute="width" multiplier="1:3" id="GUl-dT-GDf"/>
+                        <constraint firstItem="qxI-EI-ZYd" firstAttribute="bottom" secondItem="LCv-5L-nZ7" secondAttribute="bottom" constant="-7" id="IVc-6U-Fd1"/>
+                        <constraint firstItem="G2i-Zg-ZgT" firstAttribute="trailing" secondItem="LCv-5L-nZ7" secondAttribute="trailing" id="IWA-RR-5Fk"/>
+                        <constraint firstItem="LCv-5L-nZ7" firstAttribute="top" secondItem="Rrn-rn-wVT" secondAttribute="top" id="MLa-Jt-gPf"/>
+                        <constraint firstAttribute="bottom" secondItem="LCv-5L-nZ7" secondAttribute="bottom" id="PsX-1I-U2w"/>
+                        <constraint firstItem="LCv-5L-nZ7" firstAttribute="leading" secondItem="Rrn-rn-wVT" secondAttribute="leading" constant="12" id="QWC-Li-R8N"/>
+                        <constraint firstItem="qxI-EI-ZYd" firstAttribute="leading" secondItem="LCv-5L-nZ7" secondAttribute="leading" id="UIp-1B-hHJ"/>
+                        <constraint firstItem="ECA-7Z-hI7" firstAttribute="top" secondItem="Rrn-rn-wVT" secondAttribute="top" id="Whp-iT-IgK"/>
+                        <constraint firstItem="G2i-Zg-ZgT" firstAttribute="leading" secondItem="LCv-5L-nZ7" secondAttribute="leading" id="ZBb-uN-5rI"/>
+                        <constraint firstItem="G2i-Zg-ZgT" firstAttribute="bottom" secondItem="LCv-5L-nZ7" secondAttribute="bottom" constant="-7" id="ab9-sE-RKk"/>
+                        <constraint firstItem="ECA-7Z-hI7" firstAttribute="centerY" secondItem="LCv-5L-nZ7" secondAttribute="centerY" id="gAW-Ak-KNx"/>
+                        <constraint firstItem="ECA-7Z-hI7" firstAttribute="leading" secondItem="LCv-5L-nZ7" secondAttribute="trailing" id="igh-mY-OTN"/>
+                        <constraint firstAttribute="trailing" secondItem="LCv-5L-nZ7" secondAttribute="trailing" constant="12" id="tRf-rd-Wt2"/>
+                        <constraint firstAttribute="trailing" secondItem="ECA-7Z-hI7" secondAttribute="trailing" id="xmo-S8-jpd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="231F20"/>
+            <constraints>
+                <constraint firstItem="Rrn-rn-wVT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1FM-qy-rt4"/>
+                <constraint firstAttribute="bottom" secondItem="Rrn-rn-wVT" secondAttribute="bottom" id="3Ea-fJ-4Gx"/>
+                <constraint firstItem="Rrn-rn-wVT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C5d-Pi-Sl3"/>
+                <constraint firstItem="ECA-7Z-hI7" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.2" id="I5H-nJ-1ps"/>
+                <constraint firstAttribute="trailing" secondItem="Rrn-rn-wVT" secondAttribute="trailing" id="g7C-c9-7bD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="labelWidthConstariants" destination="I5H-nJ-1ps" id="yuZ-pD-TfF"/>
+                <outlet property="segmentStackView" destination="LCv-5L-nZ7" id="z6t-6B-KXg"/>
+                <outlet property="segmentUnderlineView" destination="qxI-EI-ZYd" id="ctO-DP-0Ae"/>
+                <outlet property="segmentUnderlineViewLeading" destination="UIp-1B-hHJ" id="nB7-AI-kkw"/>
+            </connections>
+            <point key="canvasLocation" x="3.6231884057971016" y="361.60714285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="231F20">
+            <color red="0.13699999451637268" green="0.12200000137090683" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F7C004">
+            <color red="0.96899998188018799" green="0.75300002098083496" blue="0.016000000759959221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
